@@ -6,14 +6,14 @@
 N/A
 
 ## 3 Unique inputs
-*You don't have to list all inputs, just 3 unique ones. The following is an example of what I'd put if my project was the xkcd Password Generator:*
 
-1. *Text input to indicate number of words in password*
-2. *Checkbox to indicate whether to include a number*
-3. *Dropdown to indicate what symbol to include*
+1. Text input to fill in multitude of fields
+2. Checkboxes to indicate whether or not to include a cell phone number or department email on business card
+3. Dropdown to choose what Campus Services department
 
 ## Class
 Form.php
 
 ## Code style divergences
-N/A
+1. Used <div> elements to mark a couple large portions of the HTML document as wrappers
+2. Used <span> elements for complex formatting for the business card itself
