@@ -19,3 +19,6 @@ Form.php
 ## Code style divergences
 1. Used ```<div>``` elements to mark a couple large portions of the HTML document as wrappers
 2. Used ```<span>``` elements for complex formatting for the business card itself
+
+## Notes for instructor
+Should have used digit instead of numeric for phone number validation - would update process.php if project wasn't already submitted
