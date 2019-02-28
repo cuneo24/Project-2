@@ -1,0 +1,86 @@
+input, select {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#wrapperForm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    background-color: floralwhite;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 50px;
+    border: crimson solid 3px;
+}
+
+body {
+    background-color: tan;
+}
+
+h2 {
+    color: crimson;
+    text-shadow: 1px 1px 2px gray;
+}
+
+#formLogo {
+    width: 20%;
+    height: 20%;
+}
+
+#wrapperCard {
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 50px;
+}
+
+.omitField {
+    width: 5%;
+}
+
+em {
+    font-size: 12px;
+}
+
+#wrapperErrors {
+    color: red;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    text-align: center;
+}
+
+#miniShield{
+    height: 8%;
+    width: 10%;
+}
+
+#cardHeader1{
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+#cardHeader2{
+    letter-spacing: 1px;
+}
+
+#cardName{
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#cardPosition{
+    font-size: inherit;
+    font-style: italic;
+}
