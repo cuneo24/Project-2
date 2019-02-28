@@ -15,5 +15,5 @@ N/A
 Form.php
 
 ## Code style divergences
-1. Used <div> elements to mark a couple large portions of the HTML document as wrappers
+1. Used ```html <div> ``` elements to mark a couple large portions of the HTML document as wrappers
 2. Used <span> elements for complex formatting for the business card itself
