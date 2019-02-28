@@ -213,6 +213,16 @@ class Form
         return 'must be less than ' . $parameter . ' character(s) long';
     }
 
+    protected function equalLength($value, $parameter)
+    {
+        return strlen($value) == $parameter;
+    }
+
+    protected function equalLengthMessage($parameter)
+    {
+        return 'must be ' . $parameter . ' character(s) long';
+    }
+
     /**
      * The value must be GREATER THAN (inclusive) the given parameter
      * Fails if value is non-numeric

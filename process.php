@@ -26,19 +26,17 @@ $errors = $form->validate([
     'position' => 'required',
     'department' => 'required',
     'workAddress' => 'required',
-    'workPhone' => 'required|numeric|minLength:10|maxLength:10',
+    'workPhone' => 'required|numeric|equalLength:10', # equalLength is custom function in Form object
     'workEmail' => 'required|email'
 ]);
 
 if ($omitCell != 'on') {
-    $errors = array_merge($errors, $form->validate(['cellPhone' => 'required|numeric|minLength:10|maxLength:10'])); # if omitCell is not checked, add new validation results to $errors array
+    $errors = array_merge($errors, $form->validate(['cellPhone' => 'required|numeric|equalLength:10'])); # if omitCell is not checked, add new validation results to $errors array
 }
 
 if ($omitDepartment != 'on') {
     $errors = array_merge($errors, $form->validate(['departmentEmail' => 'required|email'])); # if omitDepartment is not checked, add new validation results to $errors array
 }
-
-
 
 $_SESSION['results'] = [
     'errors' => $errors,
