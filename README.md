@@ -10,6 +10,8 @@ N/A
 1. Text input to fill in multitude of fields
 2. Checkboxes to indicate whether or not to include a cell phone number or department email on business card
 3. Dropdown to choose what Campus Services department
+4. Email input to accept both business and department emails
+5. Tel input for those mobile users on cell and business phone numbers
 
 ## Class
 Form.php
